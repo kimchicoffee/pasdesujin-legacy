@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => (
-  <div className="container about">
+  <div className="container main">
     <div className="row text-center">
       <img className="img-circle" src="https://s.gravatar.com/avatar/7230064ba76d93c707c3f61ad141e4bf?s=200" alt="Sujin Lee" />
       <h3 >Sujin Lee</h3>

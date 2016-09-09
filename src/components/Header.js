@@ -1,4 +1,5 @@
-import React,{ Component } from 'react';
+import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 class Header extends Component {
   constructor(props) {
@@ -27,6 +28,14 @@ class Header extends Component {
           <div className="navbar-header">
             <a className="navbar-brand" href="/">Sujin Lee</a>
           </div>
+          <ul className="nav navbar-nav">
+            <li>
+              <Link to="/">About</Link>
+            </li>
+            <li>
+              <Link to="/projects">Projects</Link>
+            </li>
+          </ul>
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#" onClick={this.sendEmail.bind(this)} onMouseEnter={this.handleMouseEnter.bind(this)} onMouseLeave={this.handleMouseLeave.bind(this)}>

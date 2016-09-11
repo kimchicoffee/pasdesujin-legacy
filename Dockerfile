@@ -11,5 +11,7 @@ RUN npm install
 # Bundle app source
 COPY . /usr/src/app
 
-CMD [ "npm", "build" ]
+# Build
+RUN npm run build
+
 CMD [ "node", "server.js"]

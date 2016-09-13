@@ -26,3 +26,13 @@ nav.header .navbar-brand, nav.header .navbar-nav > li > a {
   height: 60px;
   margin-top: 20px;
 }
+
+/*
+style for small screen
+*/
+@media (max-width: 768px) {
+  .main {
+  margin: 240px 0px;
+}
+
+}

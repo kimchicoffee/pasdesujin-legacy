@@ -1,5 +1,13 @@
+nav.header {
+  background-color: rgba(0,0,0,0.6);
+}
+
+nav.header .navbar-brand, nav.header .navbar-nav > li > a {
+  color: #ccc;
+}
+
 .main {
-  margin-bottom: 80px;
+  margin: 80px 0px;
 }
 
 .project {
@@ -8,7 +16,7 @@
 
 .icons {
   padding: 10px;
-  color: #222;
+  color: #666666;
 }
 
 .footer{

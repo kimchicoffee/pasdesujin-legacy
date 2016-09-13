@@ -23,7 +23,7 @@ class Header extends Component {
 
   render() {
     return(
-      <nav className="navbar navbar-inverse navbar-static-top">
+      <nav className="navbar navbar-fixed-top navbar-inverse header">
         <div className="container">
           <div className="navbar-header">
             <a className="navbar-brand" href="/">Sujin Lee</a>

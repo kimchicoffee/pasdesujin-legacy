@@ -6,7 +6,7 @@
     "node": "6.3.1",
     "npm": "3.10.5"
   },
-  "devDependencies": {
+  "dependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.0.2",
     "autoprefixer": "6.4.0",
@@ -52,9 +52,7 @@
     "url-loader": "0.5.7",
     "webpack": "1.13.1",
     "webpack-dev-server": "1.14.1",
-    "whatwg-fetch": "1.0.0"
-  },
-  "dependencies": {
+    "whatwg-fetch": "1.0.0",
     "bootstrap": "^3.3.7",
     "express": "^4.14.0",
     "react": "^15.3.1",

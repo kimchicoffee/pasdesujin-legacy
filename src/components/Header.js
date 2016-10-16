@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import { LoginLink, LogoutLink, Authenticated, NotAuthenticated } from 'react-stormpath';
 
 class Header extends Component {
   constructor(props) {
@@ -42,6 +43,16 @@ class Header extends Component {
                 {this.state.text} <i className="fa fa-envelope-o fa-lg" aria-hidden="true"></i>
               </a>
             </li>
+            <NotAuthenticated>
+              <li>
+                <LoginLink />
+              </li>
+            </NotAuthenticated>
+            <Authenticated>
+              <li>
+                <LogoutLink />
+              </li>
+            </Authenticated>
           </ul>
         </div>
       </nav>
